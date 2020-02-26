@@ -1,17 +1,24 @@
+//size in mm for virtual square size -  scale factor, its easy to draw on square paper and than scale by this number
 CELL_SIZE 
 80
+//default tube size
 TUBE_DIAMETR 
 16
 RECT_THICKNESS 
 9
+//how much plastic joint will extend to plate
 JOINTS_SUPPORT_EXT_TUBE 
 50
+//how much plastic joint will extend to tube
 JOINTS_SUPPORT_EXT_RECT 
 60
+//gap from center to tube (to left some space for nut and bolt)
 GAP_FOR_TUBES 
 15
+//gap from center to corner of plane (to left some space for nut and bolt)
 GAP_FOR_PLANES 
 4
+//points descriptor in space X Y Z
 POINTS
 2 0 0
 5 0 0
@@ -47,6 +54,7 @@ POINTS
 17 4 9
 12 4 12
 15 4 12
+// tubes descriptor start - end index of point
 TUBES
 1 9
 2 6
@@ -68,6 +76,7 @@ TUBES
 28 31
 29 34
 31 33
+// plate descriptor points indexes - please use points bypassing counterclockwise
 RECT
 1 2 19 18
 6 7 24 23
