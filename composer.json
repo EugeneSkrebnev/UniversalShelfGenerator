@@ -1,0 +1,21 @@
+{
+    "name": "eugene/universal-shelf-generator",
+    "description": "Universal Shelf Generator for 3d printing / laser cutting",
+    "require": {
+        "monolog/monolog": "^1.20"
+    },
+    "autoload": {
+        "psr-4": {"UniversalShelf\\": "src/"}
+    },
+    "authors": [
+        {
+            "name": "Eugene Skrebnev",
+            "email": "Skrebnevchik@gmail.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.0"
+        }
+    }
+}
